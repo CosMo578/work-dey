@@ -1,15 +1,46 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* * {
+  border: 1px solid red;
+} */
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+  --color-primary: #dbff5f;
+  --color-secondary: #261893;
+}
+
+button {
+  @apply cursor-pointer;
 }
 
 html,
 body {
   @apply bg-white dark:bg-gray-950;
 
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+}
+
+.hero,
+.footer {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.hero {
+  background-image: url('/hero-bg.svg');
+}
+
+.footer {
+  background-image: url('footer-bg.svg');
+  background-size: 32rem;
 }
