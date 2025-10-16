@@ -36,7 +36,10 @@ export default function About({}) {
           </div>
 
           <div className='flex flex-col lg:w-[40%] -mt-32'>
-            <button className='text-2xl border rounded-full p-2 px-4 ml-auto mr-8 mb-10'>
+            <button className='text-2xl border rounded-full p-2 px-4 ml-auto mr-8 mb-10'
+              onClick={() =>
+              window.open('https://www.instagram.com/useworkdey', '_blank')
+            }>
               Learn more
             </button>
 
