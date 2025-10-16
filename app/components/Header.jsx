@@ -27,7 +27,9 @@ export default function Header({}) {
           </a>
         </nav>
 
-        <button className='max-md:hidden text-secondary rounded-full px-2.5 py-1.5 font-semibold bg-primary'>
+        <button
+          className='max-md:hidden text-secondary rounded-full px-2.5 py-1.5 font-semibold bg-primary'
+          onClick={() => window.open('/register', '_blank')}>
           Contact Us
         </button>
 

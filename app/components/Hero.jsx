@@ -50,17 +50,11 @@ export default function Hero({}) {
               className='rounded-2xl w-48 h-48 md:w-[388.8496px] md:h-[580px] object-cover object-top'
             />
           </div>
-
-          <button
-            type='button'
-            className='size-20 flex items-center justify-center rounded-full bg-primary absolute bottom-8 right-8 cursor-pointer'>
-            <img src='/chat-icon.svg' alt='chat icon' className='w-[60%]' />
-          </button>
         </div>
 
         {/* Mobile */}
         <div className='md:hidden pt-20'>
-          <h1 className='text-[5rem] text-primary leading-[1] text-center font-bold mb-12'>
+          <h1 className='text-[4rem] text-primary leading-[1] text-center font-bold mb-12'>
             WORKDEY <br /> NOW
           </h1>
 
@@ -81,12 +75,6 @@ export default function Hero({}) {
             alt='Hero Image'
             className='rounded-2xl w-[60%] h-auto mx-auto object-fill'
           />
-
-          <button
-            type='button'
-            className='size-20 flex items-center justify-center rounded-full bg-primary absolute bottom-4 right-4 cursor-pointer'>
-            <img src='/chat-icon.svg' alt='chat icon' className='w-[60%]' />
-          </button>
         </div>
       </section>
 

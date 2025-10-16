@@ -7,7 +7,7 @@ export default function About({}) {
       <div className='max-lg:hidden '>
         <p className=''>
           <b>Trusted by everyday Nigerians and small businesses like: </b>{' '}
-          Flutterwave, Bolt, Coldberry, Tantalizers, GIG Logistics
+          {/* Flutterwave, Bolt, Coldberry, Tantalizers, GIG Logistics */}
         </p>
 
         <p className='text-right font-light text-3xl'>Who?</p>
@@ -61,7 +61,6 @@ export default function About({}) {
           <span className='font-semibold'>
             Trusted by everyday Nigerians and small businesses like:{' '}
           </span>
-          Flutterwave, Bolt, Coldberry, Tantalizers, GIG Logistics
         </p>
 
         <div className='mb-4 space-y-4'>
@@ -73,7 +72,11 @@ export default function About({}) {
 
           <h3 className='text-right font-light text-3xl'>Who?</h3>
 
-          <button className='text-2xl border rounded-full p-2 px-4 mx-auto mb-10 block'>
+          <button
+            className='text-2xl border rounded-full p-2 px-4 mx-auto mb-10 block'
+            onClick={() =>
+              window.open('https://www.instagram.com/useworkdey', '_blank')
+            }>
             Learn more
           </button>
         </div>

@@ -7,7 +7,9 @@ export default function Pricing({}) {
       <div className='max-lg:hidden items-end flex flex-col gap-12'>
         <p className='font-semibold mb-4 text-2xl'>How</p>
 
-        <button className='text-2xl border rounded-full p-2 px-4'>
+        <button
+          className='text-2xl border rounded-full p-2 px-4'
+          onClick={() => (window.location.href = 'mailto:goworkdey@gmail.com')}>
           More Detail
         </button>
 
@@ -46,7 +48,9 @@ export default function Pricing({}) {
           glove.
         </p>
 
-        <button className='text-2xl border rounded-full p-2 px-4'>
+        <button
+          className='text-2xl border rounded-full p-2 px-4'
+          onClick={() => (window.location.href = 'mailto:goworkdey@gmail.com')}>
           More Detail
         </button>
 

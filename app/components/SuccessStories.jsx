@@ -19,7 +19,11 @@ export default function SuccessStories() {
         </div>
       </div>
 
-      <button className='text-2xl mx-auto block border rounded-full p-2 px-4 mb-24'>
+      <button
+        className='text-2xl mx-auto block border rounded-full p-2 px-4 mb-24'
+        onClick={() =>
+          window.open('https://www.instagram.com/useworkdey', '_blank')
+        }>
         Discover more
       </button>
 
@@ -38,8 +42,9 @@ export default function SuccessStories() {
             src: 'stories-image-3.png',
             alt: 'Story 3',
           },
-        ].map(({ src, alt }) => (
+        ].map(({ src, alt }, index) => (
           <img
+            key={index}
             src={src}
             alt={alt}
             className='object-cover md:w-[60%] lg:w-[96%] rounded max-lg:hidden'
