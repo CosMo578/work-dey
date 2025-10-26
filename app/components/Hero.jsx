@@ -54,7 +54,7 @@ export default function Hero({}) {
 
         {/* Mobile */}
         <div className='md:hidden pt-20'>
-          <h1 className='text-[4rem] text-primary leading-[1] text-center font-bold mb-12'>
+          <h1 className='text-5xl text-primary leading-[1] text-center font-bold mb-12'>
             WORKDEY <br /> NOW
           </h1>
 

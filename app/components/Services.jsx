@@ -14,7 +14,7 @@ export default function Services({}) {
 
         <h2 className='font-bold leading-[1.2] text-right'>
           <span className='text-[3rem]'>Workdey</span> <br />
-          <span className='text-[5rem]'>Services</span>
+          <span className='text-7xl md:text-[5rem]'>Services</span>
         </h2>
       </div>
 
