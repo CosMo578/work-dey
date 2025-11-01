@@ -38,7 +38,7 @@ export default function About({}) {
           <div className='flex flex-col lg:w-[40%] -mt-32'>
             <button className='text-2xl border rounded-full p-2 px-4 ml-auto mr-8 mb-10'
               onClick={() =>
-              window.open('https://www.instagram.com/useworkdey', '_blank')
+              window.open('https://www.instagram.com/goworkdey', '_blank')
             }>
               Learn more
             </button>
@@ -78,7 +78,7 @@ export default function About({}) {
           <button
             className='text-2xl border rounded-full p-2 px-4 mx-auto mb-10 block'
             onClick={() =>
-              window.open('https://www.instagram.com/useworkdey', '_blank')
+              window.open('https://www.instagram.com/goworkdey', '_blank')
             }>
             Learn more
           </button>

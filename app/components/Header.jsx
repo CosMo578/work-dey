@@ -74,7 +74,11 @@ export default function Header({}) {
             <a href='#pricing'>Pricing</a>
           </li>
 
-          <button className='text-secondary rounded-full px-2.5 py-1.5 font-semibold bg-primary'>
+          <button
+            className='text-secondary rounded-full px-2.5 py-1.5 font-semibold bg-primary'
+            onClick={() =>
+              (window.location.href = 'mailto:goworkdey@gmail.com')
+            }>
             Contact Us
           </button>
         </motion.ul>

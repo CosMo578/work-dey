@@ -7,7 +7,7 @@ export default function Services({}) {
         <button
           className='text-2xl max-md:hidden border rounded-full p-2 px-4'
           onClick={() =>
-            window.open('https://www.instagram.com/useworkdey', '_blank')
+            window.open('https://www.instagram.com/goworkdey', '_blank')
           }>
           Discover more
         </button>

@@ -22,7 +22,7 @@ export default function SuccessStories() {
       <button
         className='text-2xl mx-auto block border rounded-full p-2 px-4 mb-24'
         onClick={() =>
-          window.open('https://www.instagram.com/useworkdey', '_blank')
+          window.open('https://www.instagram.com/goworkdey', '_blank')
         }>
         Discover more
       </button>
